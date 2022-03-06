@@ -12,16 +12,16 @@ import (
 
 // Book Struct (Model)
 type Book struct {
-	ID     string  `json:"id`
-	Isbn   string  `json:"isbn`
-	Title  string  `json:"title`
-	Author *Author `json:"author`
+	ID     string  `json:"id"`
+	Isbn   string  `json:"isbn"`
+	Title  string  `json:"title"`
+	Author *Author `json:"author"`
 }
 
 // Author Struct (Model)
 type Author struct {
-	FirstName string `json:"firstname`
-	LastName  string `json:"lastname`
+	FirstName string `json:"firstname"`
+	LastName  string `json:"lastname"`
 }
 
 // Init books var as a slice Book struct
